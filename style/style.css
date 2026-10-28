@@ -1,22 +1,61 @@
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: brown;
-  border-radius: 8px;
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+
+  cursor: url("../assets/cursor.png"), auto;
 }
 
 .bg-img {
+  width: 100vw;
+  height: 100vh;
   display: block;
-  width: 800px;
-  height: 600px;
   object-fit: cover;
-  object-position: 30% 50%;
 }
 
-.cat-img {
-  display: block;
-  width: 200px;
+.character-img {
+  width: 50%;
+  left: 0%;
+  top: 0%;
   position: absolute;
-  top: 250px;
-  left: 200px;
+}
+
+.pinkfire-img {
+  width: 300px;
+  position: absolute;
+  left: 10%;
+  top: 70%;
+  transition: 3s;
+}
+
+.bluefire-img {
+  width: 300px;
+  position: absolute;
+  left: 80%;
+  top: 40%;
+  transition: 3s;
+}
+
+.yellowfire-img {
+  width: 300px;
+  position: absolute;
+  left: 60%;
+  top: 70%;
+  transition: 3s;
+}
+
+.dust-img {
+  width: 30px;
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.text-img {
+  width: 500px;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  transition: 5s;
+  opacity: 0;
 }
